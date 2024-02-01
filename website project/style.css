@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+body{
+    background-color: rgb(34, 3, 63);
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing:1px;
+}
+.navbar{
+    background-color:red;
+    z-index: 999;
+}
+
+.nav-link{
+    color:white;
+    font-size:large;
+    font-weight:500;
+    margin-left:3em;
+}
+#work-btn{
+    width:150px; 
+    border-radius:15px; 
+    font-size:large;
+    background-color:red;
+    color:white; 
+    transition:0.5s;
+}
+#work-btn:hover{
+    background-color:rgb(192, 26, 26);
+    transform:scale(1.1);
+}
+#social-media:hover{
+    transform:scale(1.2);
+}
+@media (min-width: 320px) and (max-width: 479px){
+    #main-col{
+        padding-left:10%;
+    }
+    #myphoto{
+        width:200px;
+        height:200px;
+    }
+}
+@media (min-width: 480px) and (max-width: 767px){
+    #main-col{
+        padding-left:7%;
+    }   
+}
+@media (min-width: 768px){
+    #myphoto{
+        width:400px;
+        height:400px;
+    }
+}

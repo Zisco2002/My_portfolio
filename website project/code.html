@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Zeyad's portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <span id="nav-welcome" style="margin-right:4em; margin-left:1em; font-size:x-large; font-weight:600; color:white;">Welcome</span>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/sbme-tutorials/finalproject_chessgame-code-technicians.git" target="_blank">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn" type="submit" style="border-color:white; color:white;">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row flex-column-reverse flex-md-row" style="color:white;">
+          <div class="col-md-5 col-12" id="main-col" style="padding-top:10%;">
+            <div class="row" style="font-size:xx-large; font-weight:600">
+              Hello, I'm Zeyad Amr
+            </div>
+            <div class="row" style="font-size:large; margin-top:2%;">
+              I am a student in the biomedical department in Cairo University for Engineering and I also study software engineering. Discover my work and past projects from here!
+            </div>
+            <div class="row" style="margin-top:7%">
+              <button class="btn" id="work-btn" onclick="openLink()">
+                <strong>View work</strong>
+              </button>
+            </div>
+            <div class="row" style="margin-top:4%;">
+              <div class="col-2">
+                <a href="https://www.linkedin.com/in/zeyad-amr-3506b225b/" target="_blank" id="social-media" style="display:inline-block; color:whitesmoke; font-size:xx-large; transition:calc(0.5s);"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <div class="col-2">
+                <a href="https://www.facebook.com/zeyad.amr.507/" target="_blank" id="social-media" style="display:inline-block; color:whitesmoke; font-size:xx-large; transition:calc(0.5s);"><i class="fa-brands fa-square-facebook"></i></a>
+              </div>
+              <div class="col-2">
+                <a href="https://www.instagram.com/zeyad.amr.22/" target="_blank" id="social-media" style="display:inline-block; color:whitesmoke; font-size:xx-large; transition:calc(0.5s);"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col" style="padding-left:5%;">
+            <div class="container" id="myphoto-cont" style="background-color:rgb(72, 40, 102); border-radius:50px; margin-top:5%; width:60%;">
+              <img src="D:\website project\myphotos\myphoto.png" id="myphoto" class="img-fluid" alt="my photo">
+            </div>
+           
+          </div>
+        </div>  
+      </div>
+    <script>
+      function openLink(){
+        var Url="https://github.com/sbme-tutorials/finalproject_chessgame-code-technicians.git";
+        window.open(Url,'_blank');
+      }
+    </script> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN /o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
+   
+
+
+</body>
+</html>
+
